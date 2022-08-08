@@ -1,0 +1,44 @@
+.wtsh1 {
+    font-size: 40px;
+    color: rgb(35, 44, 81);
+    text-align: center;
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    background-color: rgb(249, 249, 249);
+    margin: 15px;
+    padding: 20px;
+    max-width: 500px;
+    max-height: 500px;
+    text-align: center;
+
+}
+
+.cards h1{
+    font-size: 16px;
+    padding-bottom: 7px;
+    color: rgb(35, 44, 81);
+}
+
+.cards p{
+    color: rgb(143, 148, 167);
+}
+
+.cards img{
+    max-width: 75px;
+    max-height: 75px;
+}
+
+@media screen and (max-width:720px){
+    .wtsh1{
+        font-size: 35px;
+    }
+    .cardcontainer{
+        display: inline;
+    }
+}

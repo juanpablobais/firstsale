@@ -1,0 +1,118 @@
+.mainsection{
+    display: inline-flex;
+    overflow: hidden;
+    align-items: center;
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.maintext{
+    margin: 0% auto;
+    padding: 50px;
+    
+}
+
+.maintext h1 {
+    font-size: 60px;
+    color: rgb(35, 44, 81);
+}
+
+.maintext p {
+    color: rgb(143, 148, 167);
+}
+
+.mainimage{
+    margin-right: 50px;
+}
+
+.mainsection2{
+    display: flex;
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 25px;
+}
+
+.mainsection2 p {
+    color: rgb(143, 148, 167);
+}
+
+.maintext2 {
+    height: 20%;
+    padding: 2em;
+    margin: 1em;
+    font-size: 20px;
+    color: rgb(35, 44, 81);
+}
+
+.au-titles{
+    margin-bottom: 7px;
+    color: rgb(35, 44, 81);
+    padding: 5px;
+}
+
+.number{
+    padding: 5px 20px;
+    font-size: 12px;
+    font-weight: 200px;
+    color: white;
+    background-color: rgb(242, 95, 58);
+    border: none;
+    border-radius: 45px;
+    outline: none;
+    text-align: center;
+    align-items: center;
+}
+
+.aboutus{
+    padding: 50px;
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.aboutus span{
+    margin: 25px;
+}
+
+@media screen and (max-width:720px){
+    .mainsection{
+        display: inline;
+    }
+    .maintext{
+        text-align: center;
+        font-size: 15px;
+    }
+    .maintext h1{
+        font-size: 40px;
+    }
+    .mainimage img{
+        max-width: 85%;
+        max-height: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mainsection2{
+        display: inline;
+    }
+    .maintext2 h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .maintext2 p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .number{
+        display: none;
+    }
+    .au-titles{
+        text-align: center;
+    }
+    .aboutus p{
+        font-size: 15px;
+        text-align: center;
+    }
+}

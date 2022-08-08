@@ -1,0 +1,48 @@
+.prefooter{
+    background-image: url(../assets/bg-tablet-pattern.svg);
+    background-color: rgb(242, 95, 58);
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.pfh1 {
+    color: rgb(255, 239, 234);
+}
+.btn4{
+    padding: 1.3em 3em;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(242, 95, 58);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.pfbtn:hover {
+    background-color: rgb(255, 239, 234);
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: rgb(242, 95, 58);
+    transform: translateY(-7px);
+  }
+
+  @media screen and (max-width:720px){
+    .prefooter{
+        background-image: none;
+        display: inline-table;
+    }
+    .pfh1{
+        color: rgb(35, 44, 81);
+        text-align: center;
+    }
+    .btn4{
+        background-color: rgb(255, 239, 234);
+        margin-left: 27%;
+    }
+  }
